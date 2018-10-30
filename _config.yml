@@ -12,4 +12,4 @@ plugins:
  - jekyll-paginate
 permalink: none
 
-theme: jekyll-theme-tactile
+theme:jekyll-text-theme
