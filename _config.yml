@@ -11,3 +11,5 @@ plugins:
  - jekyll-include-cache
  - jekyll-paginate
 permalink: none
+
+theme: jekyll-theme-tactile
