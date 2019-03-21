@@ -1,0 +1,16 @@
+{"dir" : "ltr",
+    "lang" : "en",
+    "name" : "",
+    "scope" : "/index.html",
+    "display" : "browser",
+    "start_url" : "https://jamesrtaylor84.github.io/index.html",
+    "short_name" : "",
+    "theme_color" : "transparent",
+    "description" : "",
+    "orientation" : "any",
+    "background_color" : "transparent",
+    "related_applications" : "",
+    "prefer_related_applications" : "false",
+    "generated" : "true",
+    "icons" : [burger.jpg
+    ]}
