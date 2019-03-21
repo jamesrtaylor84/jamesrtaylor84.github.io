@@ -1,54 +1,79 @@
- @media only screen (max-width: 360px) 
-
- {.grey {min-width:315px !important;} 
-
- .header {font-size: .8em !important;} 
-
+body {
+  margin:0;
+  width: 100wh;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
 }
 
-.wrapper > div {
-    background-image: url(https://images.genius.com/db8cf20e3bf2357483e4e5b2d5921eb8.1000x1000x1.jpg);
-    width: 95%;
-    max-width: 1000px;
-    height: auto;
-    align: center;
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
 }
 
-.animated.tdDropInLeft > div {
-    background: #7f7f7f;
-    background: rgba(0,0,0,0.5);
-    width: 80%;
-    display: inline-block;
-    margin-bottom: 5px;
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
 }
 
-.animated.tdPlopInUp > div {
-    background: #7f7f7f;
-    background: rgba(0,0,0,0.5);
-    width: 80%;
-    display: inline-block;
-    margin-bottom: 5px;
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
 }
 
-.header {
-    position: fixed;
-    top: 0;
+.menu {
+  
     width: 100%;
-    max-width: 100%;
     background-color: black;
-    height: 12%;
+    height: 8%;
     max-height: 58px;
-    color: ffffff;
+    color: antiquewhite;
     text-align: center;
-    vertical-align: middle;
-    font-size: 2em;
-    text-indent: 1%;
-    margin-bottom: 50px;
+    font-size:1.8em;
     font-family: 'Pacifico', cursive;
-    overflow: hidden;
+   margin:none;
+   overflow: hidden;
+   vertical-align: all;
+padding-top:5px;
+}
+
+@media only screen and (min-width: 400px) {
+  .menu {
+    font-size: 2em;
+  }
+}
+
+.burger {display:none;}
+
+@media only screen and (min-width: 400px) {
+  .burger {
+    display:unset;
+  }
 }
 
 .wrapper {
@@ -56,7 +81,17 @@
     text-align: center;
 }
 
-.grey {
+.content-background {
+    background-image: url(https://images.genius.com/db8cf20e3bf2357483e4e5b2d5921eb8.1000x1000x1.jpg);
+    width: 95%;
+    max-width: 1000px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.grey-text-box {
     background: #7f7f7f;
     background: rgba(0,0,0,0.7);
     width: 80%;
@@ -64,6 +99,7 @@
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
+padding:5px;
 }
 
 .album-title {
@@ -74,10 +110,12 @@
 }
 
 .album-summary {
+    color: antiquewhite;
 }
 
 .review {
     color: white;
+padding:5px;
 }
 
 .score {
@@ -88,26 +126,4 @@
 .songlink {
     color: antiquewhite;
     font-size: 2em;
-}
-
-.animated.tdDropInLeft {
-    background-image: url(http://www.progarchives.com/progressive_rock_discography_covers/1492/cover_411151112017_r.jpg);
-    width: 95%;
-    max-width: 1000px;
-    height: auto;
-    align: center;
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
-}
-
-.animated.tdPlopInUp {
-    background-image: url(https://i.imgur.com/x8ngjGW.jpg);
-    width: 95%;
-    max-width: 1000px;
-    height: auto;
-    align: center;
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
 }
