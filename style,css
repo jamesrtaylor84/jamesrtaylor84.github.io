@@ -1,0 +1,113 @@
+ @media only screen (max-width: 360px) 
+
+ {.grey {min-width:315px !important;} 
+
+ .header {font-size: .8em !important;} 
+
+}
+
+.wrapper > div {
+    background-image: url(https://images.genius.com/db8cf20e3bf2357483e4e5b2d5921eb8.1000x1000x1.jpg);
+    width: 95%;
+    max-width: 1000px;
+    height: auto;
+    align: center;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.animated.tdDropInLeft > div {
+    background: #7f7f7f;
+    background: rgba(0,0,0,0.5);
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.animated.tdPlopInUp > div {
+    background: #7f7f7f;
+    background: rgba(0,0,0,0.5);
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    background-color: black;
+    height: 12%;
+    max-height: 58px;
+    color: ffffff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    text-indent: 1%;
+    margin-bottom: 50px;
+    font-family: 'Pacifico', cursive;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.grey {
+    background: #7f7f7f;
+    background: rgba(0,0,0,0.7);
+    width: 80%;
+    min-width: 320px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.album-title {
+    color: antiquewhite;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.album-summary {
+}
+
+.review {
+    color: white;
+}
+
+.score {
+    color: antiquewhite;
+    font-size: 2em;
+}
+
+.songlink {
+    color: antiquewhite;
+    font-size: 2em;
+}
+
+.animated.tdDropInLeft {
+    background-image: url(http://www.progarchives.com/progressive_rock_discography_covers/1492/cover_411151112017_r.jpg);
+    width: 95%;
+    max-width: 1000px;
+    height: auto;
+    align: center;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.animated.tdPlopInUp {
+    background-image: url(https://i.imgur.com/x8ngjGW.jpg);
+    width: 95%;
+    max-width: 1000px;
+    height: auto;
+    align: center;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
